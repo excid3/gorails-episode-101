@@ -1,0 +1,4 @@
+<div><strong><%= gravatar_image_tag(comment.user.email, gravatar: {size: 20}) %> <%= comment.user.email %> commented:</strong></div>
+
+<%= simple_format comment.body %>
+<hr />

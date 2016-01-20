@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Comments</h1>
+
+<% @comments.each do |comment| %>
+  <%= render comment %>
+<% end %>
+
+<br>
+
+<%= link_to 'New Comment', new_comment_path %>
