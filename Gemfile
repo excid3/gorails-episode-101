@@ -47,3 +47,4 @@ end
 
 gem 'devise'
 gem 'gravatar_image_tag'
+gem 'share_meow_client'
